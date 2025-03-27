@@ -44,7 +44,7 @@ Done!
 > These shortcuts are designed for iPhone, and will not run on MacOS as there is no native Apple Health API available.
 
 > [!NOTE]
-> The Shortcuts app must have explicit permission to write data to the Health app for each of the samples (HRV, SpO2, etc.). If Shortcuts has never attempted to write to Health before, this option will not be available in the Health permissions settings. To fix this, run the shortcut manually, allow it to fail, and return to the Health permissions settings to enable the appropriate permissions. At this point, your automation should work as expected. You can access the Health permissions settings by going to the Health app, selecting your profile in the top right, selecting 'Apps' under the 'Privacy' section, and then selecting 'Shortcuts.'.
+> The Shortcuts app must have explicit permission to write data to the Health app for each of the samples (HRV, SpO2, etc.). If Shortcuts has never attempted to write to Health before, this option will not be available in the Health permissions settings. To fix this, run the shortcut manually, allow it to fail, and return to the Health permissions settings to enable the appropriate permissions. At this point, your automation should work as expected. Alternatively, you can tap on the three dots in the shortcut app, scroll down completely and there you can enable the apple health permission. You can access the Health permissions settings by going to the Health app, selecting your profile in the top right, selecting 'Apps' under the 'Privacy' section, and then selecting 'Shortcuts.'.
 
 ## Notes <a name="notes"></a>
 
